@@ -1,0 +1,17 @@
+[Desktop Entry]
+Comment[fr_FR]=
+Comment=
+Exec=/home/solomos/scripts/Claude_Usage_Meter2.sh
+GenericName[fr_FR]=
+GenericName=
+Icon=docky
+MimeType=
+Name[fr_FR]=Claude Usage Meter
+Name=Claude Usage Meter
+Path=
+StartupNotify=true
+Terminal=false
+TerminalOptions=
+Type=Application
+X-KDE-SubstituteUID=false
+X-KDE-Username=

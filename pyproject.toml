@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "claude-usage-meter"
+version = "0.1.0"
+description = "Desktop tray/widget for Claude session usage monitoring"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+  "playwright>=1.44.0",
+  "PySide6>=6.6.0",
+]
+
+[project.scripts]
+claude-usage-meter = "claude_usage_meter.__main__:main"
+claude-usage-meter-login = "claude_usage_meter.login:main"
+claude-usage-meter-install-autostart = "scripts.install_autostart:main"
+
+[tool.setuptools.packages.find]
+include = ["claude_usage_meter", "scripts"]

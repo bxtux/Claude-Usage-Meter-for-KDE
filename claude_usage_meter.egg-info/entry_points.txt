@@ -1,0 +1,4 @@
+[console_scripts]
+claude-usage-meter = claude_usage_meter.__main__:main
+claude-usage-meter-install-autostart = scripts.install_autostart:main
+claude-usage-meter-login = claude_usage_meter.login:main
