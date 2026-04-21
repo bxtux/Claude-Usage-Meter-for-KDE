@@ -53,3 +53,6 @@ Valeurs par defaut:
 - Le profil est volontairement dans `~/...` (non cache) pour compatibilite Snap Chromium.
 - Si tu changes `profile_dir` vers le profil principal Chromium, il faut fermer Chromium avant lancement.
 - Chromium est lance avec une classe de fenetre dediee: `claude-usage-meter-browser` (utile pour les regles KDE ciblees).
+- Sur les fenêtre Chromium et Claude Usage Meter Widget, utilisez l'option ALT+F3 -> "Actions Supplémentaires" -> "Configurer les paramètres spécifiques de fenêtres" (voir screenshots)
+
+
